@@ -1,6 +1,9 @@
 # CodeChallenge
+
 Its build in VS2019, Solution file in under CodeChallenge folder
+
 Project structure
+
   **Models are placed in Model folder**
     -LatestLotteriesResultsResponse.cs
     -LotteriesResultsParameter.cs
