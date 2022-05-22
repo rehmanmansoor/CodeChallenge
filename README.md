@@ -14,7 +14,7 @@ Project structure
     
     -OpenLotteriesDrawsResponse.cs
     
-   **lottery Service and ite interface is in lotteryService folder**
+   **lottery Service and its interface is in lotteryService folder**
    
     -ILotteryService.cs
     
@@ -22,7 +22,7 @@ Project structure
     
    **Unit test**
    
-    - CodeChallenge.Tests project us for Unit test
+    - CodeChallenge.Tests project is for Unit test
     
         -lotteryServiceTest.cs contain all the unit test
         
