@@ -1,0 +1,39 @@
+﻿@model CodeChallenge.Models.LatestLotteriesResultsResponse
+@using CodeChallenge.Models
+@{
+
+    ViewBag.Title = "latest Results ";
+}
+
+<div class="jumbotron">
+
+</div>
+
+
+
+@{
+
+    foreach (DrawResult item in Model.DrawResults)
+    {
+    <div class="row">
+        <tr>
+            <td>
+                @item.DrawDisplayName
+            </td>
+            <td>
+                @item.DrawDate.ToShortDateString()
+            </td>
+            <td>
+                @item.DrawNumber
+            </td>
+            <td>
+                @item.TicketNumbers
+            </td>
+        </tr>
+
+    </div>
+
+        
+
+    }
+}
