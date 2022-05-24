@@ -28,8 +28,11 @@ Project structure
    **Unit test**
    
     - CodeChallenge.Tests project is for Unit test
-    
+         
         -lotteryServiceTest.cs contain all the unit test
+        
+   **Run Test**
+      Right click on the test and select Debug test, that will build the application and execute the selected test.
         
    
     
