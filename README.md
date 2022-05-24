@@ -1,6 +1,11 @@
 # CodeChallenge
 
-Its build in VS2019, Solution file in under CodeChallenge folder
+**Building and running Solution**
+- Its build in VS2019, 
+- Solution file in under CodeChallenge folder
+- Open solution and restore the Nuget packages
+- In VS2019 click IIS Express button in the ribbon menu, that will open browser and load the home page.
+
 
 Project structure
 
