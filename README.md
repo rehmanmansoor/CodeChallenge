@@ -35,8 +35,11 @@ Project structure
       Right click on the test and select Debug test, that will build the application and execute the selected test.
         
    **ERROR "Could not find a part of the path ... bin\roslyn\csc.exe"**
+   
      run this in the Package Manager Console:
+     
          Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
+         
          https://stackoverflow.com/questions/32780315/could-not-find-a-part-of-the-path-bin-roslyn-csc-exe
          
     
